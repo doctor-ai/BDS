@@ -1,0 +1,7 @@
+{
+    "port": 5000,
+    "db": "mongodb://admin:admin123@ds263460.mlab.com:63460/pantherapi",
+    "jwt": {
+        "secret": "1234"
+    }
+}
