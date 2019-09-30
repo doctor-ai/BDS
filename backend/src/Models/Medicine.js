@@ -13,7 +13,7 @@ const MedicineSchema = new Schema({
     require: true,
   },
   pricing: {
-    type: mongoose.Schema.Types.String,
+    type: mongoose.Schema.Types.Number,
     require: true,
   },
   manufacturer: {
