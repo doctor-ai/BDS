@@ -44,9 +44,9 @@ const style = theme => ({
       color: 'white'
     }
   },
-  btn: {
-    color: 'grey'
-  },
+  // btn: {
+  //   color: 'grey'
+  // },
   aboutus: {
     marginTop: '2rem'
   },
@@ -82,8 +82,7 @@ const style = theme => ({
     display: 'flex',
     alignItems: 'center',
     flex: 1,
-    flexDirection: 'column',
-    color: '#FAFCFE'
+    flexDirection: 'column'
   },
   cardGrid: {
     paddingTop: theme.spacing(8),
@@ -119,22 +118,22 @@ const style = theme => ({
     textAlign: 'center',
     color: '#B9B9BA',
     boxShadow: '1px 1px 3px 1px #D9D8DB'
-  }
+  },
   //nitin
-  // main: {
-  //   margin: theme.spacing() * 1
-  // },
-  // about: {
-  //   margin: theme.spacing() * 1
-  // },
+  main: {
+    margin: theme.spacing() * 1
+  },
+  about: {
+    margin: theme.spacing() * 2
+  },
 
-  // btn: {
-  //   backgroundColor: theme.palette.primary.main
-  // },
-  // CardMedia: {
-  //   margin: theme.spacing() * 2,
-  //   width: theme.spacing() * 6
-  // }
+  btn: {
+    backgroundColor: theme.palette.primary.main
+  },
+  CardMedia: {
+    margin: theme.spacing() * 2,
+    width: theme.spacing() * 6
+  }
 });
 
 export default style;

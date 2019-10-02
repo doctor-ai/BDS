@@ -11,7 +11,6 @@ import {
   CardContent,
   Avatar
 } from '@material-ui/core';
-import SingleBedIcon from '@material-ui/icons/SingleBed';
 import style from './style';
 import { Header } from 'Components';
 import { Link as RouterLink } from 'react-router-dom';
@@ -28,7 +27,7 @@ class Layout extends Component {
   render() {
     const { classes } = this.props;
     return (
-      <div className={classes.header}>
+      <div className={classes.container}>
         <Header />
         <Container maxWidth='lg' className={classes.Container}>
           <Grid container spacing={4}>
@@ -63,7 +62,7 @@ class Layout extends Component {
             </Grid>
           </Grid>
           {/* second Grid */}
-          <Container className={classes.main} maxWidth='lg'>
+          <Container className={classes.Container} maxWidth='lg'>
             <Grid container spacing={4}>
               <Grid item xs={12} md={4}>
                 <Card className={classes.card}>
