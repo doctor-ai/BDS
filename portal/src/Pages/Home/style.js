@@ -34,6 +34,11 @@ const style = theme => ({
     width: theme.spacing() * 6,
    
   
+  },
+  img:{
+    width: theme.spacing() * 65,
+    height: theme.spacing() * 46,
+
   }
  
 
