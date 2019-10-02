@@ -9,5 +9,8 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "nodemon": "^1.19.3"
+  }
 }
