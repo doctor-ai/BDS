@@ -7,7 +7,8 @@ class Layout extends Component {
     const { classes } = this.props;
     return (
       <div className={classes.container}>
-        <Typography variant='h5'>Login Screen</Typography>
+        aslkdn
+        {/* <Typography variant='h5'>Login Screen</Typography> */}
       </div>
     );
   }
