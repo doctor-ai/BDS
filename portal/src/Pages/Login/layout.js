@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { withStyles } from '@material-ui/core';
+import { withStyles, Typography} from '@material-ui/core';
 import style from './style';
 
 class Layout extends Component {
@@ -7,8 +7,7 @@ class Layout extends Component {
     const { classes } = this.props;
     return (
       <div className={classes.container}>
-        aslkdn
-        {/* <Typography variant='h5'>Login Screen</Typography> */}
+        <Typography variant='h5'>Login Screen</Typography>
       </div>
     );
   }

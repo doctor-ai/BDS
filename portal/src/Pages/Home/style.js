@@ -2,14 +2,16 @@ const style = theme => ({
   headertypo: {
     fontFamily: 'Roboto',
     lineHeight: '3.5rem',
-    fontWeight: '400'
+    fontWeight: '400',
+    marginTop:'6rem'
   },
   button: {
     color: 'white'
   },
   paragraph: {
     color: 'grey',
-    textAlign: 'justify'
+    textAlign: 'justify',
+    
   },
   Container: {
     marginTop: '5rem'
@@ -119,20 +121,50 @@ const style = theme => ({
     color: '#B9B9BA',
     boxShadow: '1px 1px 3px 1px #D9D8DB'
   },
-  //nitin
-  main: {
-    margin: theme.spacing() * 1
-  },
-  about: {
-    margin: theme.spacing() * 2
+//   nitin
+
+
+  cards:{
+
+  "&:hover": {
+      backgroundColor: theme.palette.primary.main,
+      color: theme.palette.common.white
+      
+    }
+  
   },
 
-  btn: {
-    backgroundColor: theme.palette.primary.main
-  },
-  CardMedia: {
+
+  CardMediasvg:{
     margin: theme.spacing() * 2,
-    width: theme.spacing() * 6
+    width: theme.spacing() * 6,
+  },
+  textField:{
+    margin: theme.spacing() * 2,
+  },
+  btn:{
+    margin: theme.spacing() * 1.5,
+
+  },
+  contact:{
+    color: theme.palette.primary.main,
+   
+  },
+
+  contacts:{
+    fontFamily: 'Operator mono',
+
+    color: theme.palette.primary.main,
+    textAlign:'center',
+    
+
+  },
+  contactIcon:{
+   
+    color: theme.palette.primary.main,
+
+
+
   }
 });
 
